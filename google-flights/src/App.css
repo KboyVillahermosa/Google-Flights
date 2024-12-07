@@ -1,0 +1,30 @@
+/* Reset margin and padding for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4c6ef5, #3b5bdb); /* Gradient background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
